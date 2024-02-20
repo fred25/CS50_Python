@@ -1,4 +1,4 @@
-x = input("Greeting: ").lower()
+x = input("Greeting: ").lower().strip()
 
 money = 100
 if x.startswith("hello"):
